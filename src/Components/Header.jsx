@@ -29,7 +29,7 @@ function Header({ setCurrentComponent }) {
 
 
 
-      <a href="/contact" className="fa-solid fa-phone fa fa-inverse ">
+      <a className="fa-solid fa-phone fa fa-inverse ">
         <Button className="BtnHeader" data-mdb-ripple-color="dark" text="Contato" onClick={() => setCurrentComponent('contact')} />
       </a>
       <a>
