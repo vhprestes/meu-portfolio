@@ -10,7 +10,13 @@
 
 /* mobile mode */
 
+.fa-briefcase {
+  color: white !important;
+}
 
+.fa-phone {
+  color: white !important;
+}
 
 .header {
   padding: 20px 10px;

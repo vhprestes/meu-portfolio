@@ -20,8 +20,8 @@ function Header({ setCurrentComponent }) {
 
 
 
-      <a className="fa fa-inverse fa-solid fa-briefcase">
-        <Button className="BtnHeader" data-mdb-ripple-color="dark" text="Projetos" onClick={() => setCurrentComponent('projects')} />
+      <a className="fa fa-briefcase fa-inverse"  onClick={() => setCurrentComponent('projects')}>
+        <Button className="BtnHeader" data-mdb-ripple-color="dark" text="Projetos" />
       </a>
       <a>
         <Button className="BtnHeader btn btn-light btn-outline-red" data-mdb-ripple-color="dark" text="Projetos" onClick={() => setCurrentComponent('projects')} />
@@ -29,7 +29,7 @@ function Header({ setCurrentComponent }) {
 
 
 
-      <a className="fa-solid fa-phone fa fa-inverse ">
+      <a className="fa-solid fa-phone fa fa-inverse "  onClick={() => setCurrentComponent('contact')}>
         <Button className="BtnHeader" data-mdb-ripple-color="dark" text="Contato" onClick={() => setCurrentComponent('contact')} />
       </a>
       <a>
