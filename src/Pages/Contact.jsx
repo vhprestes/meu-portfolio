@@ -9,7 +9,6 @@ function Contact() {
   const text = "Me envie um email"
   return (
     <div>
-<Header />
     <div>
       <div className='contact'>
       <h1>Contato</h1>
@@ -43,7 +42,6 @@ function Contact() {
         />
       </a>
       </div>
-      <Footer />
     </div>
     </div>
   );

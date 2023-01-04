@@ -20,7 +20,6 @@ function Portfolio() {
   const text6 = 'Projeto: Trybesmith - Um projeto de uma API CRUD de loja de itens medievais. Utilizando Typescript, MySQL, Express, JWT e Docker.'
   return (
     <div>
-      <Header />
       <h1 className="titleport">Projetos</h1>
       <h4>
         Essa é a lista com apenas alguns dos projetos que conclui no último ano:
@@ -42,7 +41,6 @@ function Portfolio() {
         text={text6}
         link="https://github.com/vhprestes/trybesmith"
       />
-      <Footer />
     </div>
   );
 }

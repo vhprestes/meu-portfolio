@@ -14,14 +14,12 @@ function About() {
   const text2 = 'Possuo disponibilidade para trabalho hibrido ou presencial no Rio de Janeiro (Capital, baixada e sul fluminense) e para mudança caso seja necessário. '
   return (
     <div>
-      <Header />
       <div className='aboutContainer'>
         <h1>Sobre mim</h1>
         <Textbox className='about' text={text} />
         <Textbox className='about' text={text2} />
 
       </div>
-      <Footer />
     </div>
   );
 }
