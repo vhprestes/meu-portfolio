@@ -79,7 +79,7 @@ h1, h2 {
   color: lightgray; 
 }
 
-h1, h2 {
+h1, h2, h3 {
   display: flex;
   justify-content: center;
 }
@@ -275,9 +275,12 @@ min-width: 30%;
 .linksContact {
   /* font-size: 1.5rem; */
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-right: 4rem;
+  margin-bottom: 3rem;
+  margin-right: 25%;
+  margin-left: 25%;
+  display: flex;
   text-align: center;
+  justify-content: space-around
 }
 
 
