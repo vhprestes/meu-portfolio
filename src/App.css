@@ -216,13 +216,14 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  font-size: 12px !important;
 }
 
 
 /* Estilo para resoluções menores que 580px */
 @media (max-width: 579px) {
   Footer p {
-    font-size: 12px !important; /* Exibe os elementos um em cima do outro */
+    font-size: 9px !important; /* Exibe os elementos um em cima do outro */
     
   }
   
