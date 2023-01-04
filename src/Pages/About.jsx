@@ -1,7 +1,5 @@
 import Textbox from '../Components/Textbox';
-import Image from '../Components/Image';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+
 
 function About() {
   const text =
