@@ -84,6 +84,7 @@ h1, h2, h3 {
   justify-content: center;
 }
 
+
 h4 {
   font-weight: 700;
   margin-bottom: 1rem;
@@ -274,13 +275,14 @@ min-width: 30%;
 
 .linksContact {
   /* font-size: 1.5rem; */
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 3rem; */
   margin-right: 25%;
   margin-left: 25%;
   display: flex;
   text-align: center;
-  justify-content: space-around
+  justify-content: space-evenly
+
 }
 
 
@@ -314,6 +316,18 @@ min-width: 30%;
   h2 {
     margin-top: 2rem;
   }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
 }
 
 /* Estilo para resoluções menores que 768px */
@@ -333,7 +347,20 @@ min-width: 30%;
     font-size: 38px !important;
   }
   h2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    size: 1.5rem !important;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4, p {
+    font-size: 14px;
   }
 
 }

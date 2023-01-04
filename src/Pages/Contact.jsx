@@ -28,7 +28,7 @@ function Contact() {
 <div className='linksContact' >
       <a href="https://www.linkedin.com/in/vhprestes/" target="_blank">
         <i
-          className="fab fa-linkedin fa-4x fa-inverse"
+          className="fab fa-linkedin fa-3x fa-inverse"
           src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/linkedin.svg"
           alt="Linkedin"
         />
@@ -36,7 +36,7 @@ function Contact() {
         {'              '}
       <a href="https://instagram.com/vhprestes" target="_blank">
         <i
-          className="fab fa-instagram fa-4x fa-inverse"
+          className="fab fa-instagram fa-3x fa-inverse"
           src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg"
           alt="Instagram"
         />
