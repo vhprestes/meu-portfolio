@@ -12,7 +12,7 @@ class Card extends React.Component {
       <p>{text}</p>
       </div>
       <a className='link' href={link} target="_blank" rel="noreferrer">
-      <Button text="Github" className="BtnAbout btn btn-light btn-outline-red" data-mdb-ripple-color="dark"  />
+      <Button text="Github" className="BtnAbout btn btn-light btn-outline-blue" data-mdb-ripple-color="dark"  />
       </a>
       </div>
     );
