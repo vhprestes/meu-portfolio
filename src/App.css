@@ -1,14 +1,7 @@
-
-/* #root {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  max-width: 100%;
-  min-width: 50%;
-  max-height: 100vh;
-} */
-
-/* mobile mode */
+.titleProjects{
+  text-align: justify;
+  color: #afcbff;
+}
 
 .title {
   display: flex;
@@ -26,8 +19,9 @@
 }
 
 .header {
-  padding: 20px 10px;
-  align-items: center
+  padding: 20px 10px 0px 0px;
+  align-items: center;
+  justify-content: space-around !important
 }
 
 .header a {
@@ -44,29 +38,6 @@
 }
 
 
-/* 
-@media screen and (max-width: 600px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .BtnHeader, .BtnAbout {
-    width: 40%;
-    margin: 0 auto;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-} */
-/* desktop mode */
-/* 
-body {
-  width: 100%;
-  height: 50vh;
-} */
 
 .imgContact {
 max-width: 10%;
@@ -198,6 +169,7 @@ align-items: center
 
 .titleport {
   margin: 2rem;
+  padding-bottom: 2rem;
 }
 
 h4 {
@@ -208,15 +180,15 @@ h4 {
 
 footer {
   padding: 1rem;
+  padding-bottom: 0;
   background-color: #282c34;
-  color: white;
+  color: rgb(203, 223, 250);
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  font-size: 12px !important;
 }
 
 
@@ -275,9 +247,6 @@ min-width: 30%;
 }
 
 .linksContact {
-  /* font-size: 1.5rem; */
-  /* margin-top: 2rem; */
-  /* margin-bottom: 3rem; */
   margin-right: 25%;
   margin-left: 25%;
   display: flex;
@@ -288,32 +257,14 @@ min-width: 30%;
 
 
 /* Estilo para resoluções maiores que 768px (largura mínima do menu) */
-@media (min-width: 768px) {
   .header {
     display: flex; /* Exibe os botões lado a lado */
-  }
-
-  .BtnHeader {
-    display: inline-block; /* Exibe os botões inline */
-  }
-  .fa {
-    display: none; /* Esconde os ícones */
-  }
-}
-
-/* Estilo para resoluções maiores que 768px (largura mínima do menu) */
-@media (min-width: 768px) {
-  .header {
-    display: flex; /* Exibe os botões lado a lado */
-  }
-
-  .BtnHeader {
-    display: inline-block; /* Exibe os botões inline */
   }
 
   .fa {
     display: none; /* Esconde os ícones */
   }
+
   h2 {
     margin-top: 2rem;
   }
@@ -329,14 +280,10 @@ min-width: 30%;
   h4 {
     font-size: 20px;
   }
-}
 
 /* Estilo para resoluções menores que 768px */
-@media (max-width: 767px) {
-  .header {
-    display: flex; /* Exibe o ícone de menu e o dropdown */
-    justify-content: space-between;
-  }
+@media (max-width: 5767px) {
+
 
   .BtnHeader {
     display: none; /* Esconde os botões */
@@ -374,18 +321,26 @@ min-width: 30%;
 }
 
 
+
+
 /*  DAQUI PRA BAIXO É O BACKGROUND */
 
 @keyframes animate {
   0%{
       transform: translateY(0) rotate(0deg);
       opacity: 1;
-      border-radius: 0;
+      border-radius: 100;
   }
+  50%{
+    transform: translateY(-500px) rotate(0deg);
+    opacity: 0.5;
+    border-radius: 100%;
+}
+
   100%{
       transform: translateY(-1000px) rotate(720deg);
       opacity: 0;
-      border-radius: 50%;
+      border-radius: 100%;
   }
 }
 
