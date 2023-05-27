@@ -11,37 +11,29 @@ function Contact() {
     <div>
     <div>
       <div className='contact'>
+      <br />
+
       <h1>Contato</h1>
+      <br />
+ 
+
       <h2>Quer entrar em contato comigo?</h2>
-      {/* <Textbox text={text} /> */}
+      <br />
+      <br />
+
       <a href="mailto:vhprestes@gmail.com">
-        <Button className="BtnAbout btn btn-light btn-outline-red" data-mdb-ripple-color="dark" text={text} />
+        <Button className="BtnAbout btn btn-light btn-outline-blue" data-mdb-ripple-color="dark" text={text} />
       </a>
+      <br />
       <br />
       <br />
 
       <h3>
-        Também pode entrar em contato comigo através das minhas redes sociais:
+        Também pode entrar em contato comigo através do meu Linkedin ou do meu Github
       </h3>
       <br />
       </div>
-<div className='linksContact' >
-      <a href="https://www.linkedin.com/in/vhprestes/" target="_blank">
-        <i
-          className="fab fa-linkedin fa-3x fa-inverse"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/linkedin.svg"
-          alt="Linkedin"
-        />
-      </a>
-        {'              '}
-      <a href="https://instagram.com/vhprestes" target="_blank">
-        <i
-          className="fab fa-instagram fa-3x fa-inverse"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg"
-          alt="Instagram"
-        />
-      </a>
-      </div>
+
     </div>
     </div>
   );
