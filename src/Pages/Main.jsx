@@ -10,7 +10,7 @@ function Main({ handleComponentChange }) {
       <Title className="title"/>
       <a>
         <Button
-          className="BtnAbout btn btn-light btn-outline-red"
+          className="BtnAbout btn btn-light btn-outline-blue"
           data-mdb-ripple-color="dark"
           text="Saiba mais sobre mim"
           onClick={() => handleComponentChange('about')}
