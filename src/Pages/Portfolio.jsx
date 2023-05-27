@@ -18,10 +18,17 @@ function Portfolio() {
   const text6 = 'Projeto: Trybesmith - Um projeto de uma API CRUD de loja de itens medievais. Utilizando Typescript, MySQL, Express, JWT e Docker.'
   return (
     <div>
+      <br />
+      <br />
+
+      <br />
+
       <h1 className="titleport">Projetos</h1>
-      <h4>
+
+
+      <h3 className='titleProjects'>
         Essa é a lista com apenas alguns dos projetos que conclui no último ano:
-      </h4>
+      </h3>
       <Card
         // img="https://picsum.photos/200/300"
         // alt="imagem"
